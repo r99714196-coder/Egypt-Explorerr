@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cleopatra | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Cleopatra</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='kings.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="cleopatra1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Cleopatra</h2>
+
+<p>
+Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt. She is one of the most famous women in history, known for her intelligence, political skills, and leadership. Cleopatra spoke several languages and worked to strengthen Egypt through diplomacy and alliances. Her life and reign have inspired countless books, movies, and historical studies.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"cleopatra1.jpg",
+"cleopatra2.jpg",
+"cleopatra3.jpg"
+]);
+</script>
+
+</body>
+</html>

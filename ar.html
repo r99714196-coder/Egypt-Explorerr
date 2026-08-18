@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Orabi | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Ahmed Orabi</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='kings.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/ar1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Ahmed Orabi</h2>
+
+<p>
+Ahmed Orabi was an Egyptian army officer and political leader who became one of the most important figures in modern Egyptian history. He led the Orabi Revolution in 1881–1882, demanding reforms, greater political representation, and an end to foreign influence in Egypt. He became a symbol of Egyptian nationalism and resistance.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/ar1.jpg",
+    "images/ar2.jpg",
+    "images/ar3.jpg"
+]);
+</script>
+
+</body>
+</html>

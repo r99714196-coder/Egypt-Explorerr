@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Ali Mosque | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Mohamed Ali Mosque</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='religious.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/ali1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Mohamed Ali Mosque</h2>
+
+<p>
+The Mosque of Muhammad Ali is one of the most famous landmarks in Cairo. It was built by Muhammad Ali Pasha in the 19th century inside the Citadel of Cairo. The mosque is known for its large domes, elegant Ottoman-inspired architecture, and beautiful views over Cairo.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/ali1.jpg",
+    "images/ali2.jpg",
+    "images/ali3.jpg"
+]);
+</script>
+
+</body>
+</html>

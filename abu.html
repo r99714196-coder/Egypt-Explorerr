@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abu Simbel | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+  <div class="place-name">Abu Simbel Temple</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+  <img id="mainImg" src="abu1.jpg" class="main-img">
+
+  <div class="controls">
+    <button onclick="prevImg()">⬅</button>
+    <button onclick="nextImg()">➡</button>
+  </div>
+</div>
+
+<div class="info">
+  <h2>About Abu Simbel</h2>
+  <p>
+    Abu Simbel is one of the most famous ancient temples in Egypt.
+    It was built by Pharaoh Ramses II and carved into a mountainside.
+    It is known for its massive statues and incredible engineering.
+  </p>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Egypt Explorer</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+  setImages([
+    "abu1.jpg",
+    "abu2.jpg",
+    "abu3.jpg"
+  ]);
+</script>
+
+</body>
+</html>

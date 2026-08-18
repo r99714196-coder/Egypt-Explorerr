@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grand Egyptian Museum | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Grand Egyptian Museum</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='museums.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/gem1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About the Grand Egyptian Museum</h2>
+
+<p>
+The Grand Egyptian Museum is a major archaeological museum located near the Giza Pyramids. It is dedicated to the history and civilization of ancient Egypt and houses a large collection of ancient Egyptian artifacts. The museum provides visitors with an opportunity to explore Egypt's rich heritage through its collections and exhibitions.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/gem1.jpg",
+    "images/gem2.jpg",
+    "images/gem3.jpg"
+]);
+</script>
+
+</body>
+</html>

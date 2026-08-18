@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Attractions | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="attractions">
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search attractions...">
+</nav>
+
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<div class="container">
+
+  <h1 class="title">🏛️Attractions</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('giza')">
+      <img src="giza1.jpg">
+      <h2>Pyramids of Giza</h2>
+    </div>
+
+    <div class="card" onclick="openPage('sphinx')">
+      <img src="sphinx1.jpg">
+      <h2>Great Sphinx</h2>
+    </div>
+
+    <div class="card" onclick="openPage('djoser')">
+      <img src="djoser1.jpg">
+      <h2>Step Pyramid of Djoser</h2>
+    </div>
+
+    <div class="card" onclick="openPage('karnak')">
+      <img src="karnak1.jpg">
+      <h2>Karnak Temple</h2>
+    </div>
+
+    <div class="card" onclick="openPage('luxor')">
+      <img src="luxor1.jpg">
+      <h2>Luxor Temple</h2>
+    </div>
+
+    <div class="card" onclick="openPage('hatshpsut')">
+      <img src="hat1.jpg">
+      <h2>Hatshepsut Temple</h2>
+    </div>
+
+    <div class="card" onclick="openPage('valley')">
+      <img src="valley1.jpg">
+      <h2>Valley of the Kings</h2>
+    </div>
+
+    <div class="card" onclick="openPage('abu')">
+      <img src="abu1.jpg">
+      <h2>Abu Simbel</h2>
+    </div>
+
+    <div class="card" onclick="openPage('philae')">
+      <img src="philae1.jpg">
+      <h2>Philae Temple</h2>
+    </div>
+
+    <div class="card" onclick="openPage('citadel')">
+      <img src="citadel1.jpg">
+      <h2>Saladin Citadel</h2>
+    </div>
+
+    <div class="card" onclick="openPage('khan')">
+      <img src="khan1.jpg">
+      <h2>Khan El Khalili</h2>
+    </div>
+
+    <div class="card" onclick="openPage('qaitbay')">
+      <img src="qait1.jpg">
+      <h2>Qaitbay Citadel</h2>
+    </div>
+
+    <div class="card" onclick="openPage('tower')">
+      <img src="tower1.jpg">
+      <h2>Cairo Tower</h2>
+    </div>
+
+    <div class="card" onclick="openPage('siwa')">
+      <img src="siwa1.jpg">
+      <h2>Siwa Oasis</h2>
+    </div>
+
+    <div class="card" onclick="openPage('ras')">
+      <img src="ras1.jpg">
+      <h2>Ras Mohammed</h2>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

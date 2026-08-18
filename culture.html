@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Culture | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="culture">
+
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search culture...">
+</nav>
+
+<div class="container">
+
+  <h1 class="title">🎭 Egyptian Culture</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('tanoura')">
+    <img src="images/tan1.jpg" alt="Tanoura">
+    <h2>Tanoura</h2>
+</div>
+
+    <div class="card" onclick="openPage('craft')">
+    <img src="images/craft1.jpg" alt="Egyptian Crafts">
+    <h2>Egyptian Crafts</h2>
+</div>
+
+
+<div class="card" onclick="openPage('market')">
+    <img src="images/market1.jpg" alt="Egyptian Markets">
+    <h2>Egyptian Markets</h2>
+</div>
+
+    
+    <div class="card" onclick="openPage('calligraphy')">
+    <img src="images/call1.jpg" alt="Egyptian Calligraphy">
+    <h2>Egyptian Calligraphy</h2>
+</div>
+
+    <div class="card" onclick="openPage('music')">
+    <img src="images/music1.jpg" alt="Egyptian Music">
+    <h2>Egyptian Music</h2>
+</div>
+
+    <div class="card" onclick="openPage('dress')">
+    <img src="images/dress1.jpg" alt="Traditional Egyptian Dress">
+    <h2>Traditional Egyptian Dress</h2>
+</div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

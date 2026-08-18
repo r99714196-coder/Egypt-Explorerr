@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="food">
+
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search food...">
+</nav>
+
+<div class="container">
+
+  <h1 class="title">🍲 Egyptian Food</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('koshari')">
+    <img src="images/kosh1.jpg" alt="Koshari">
+    <h2>Koshari</h2>
+</div>
+
+    <div class="card" onclick="openPage('taameya')">
+    <img src="images/taam1.jpg" alt="Taameya">
+    <h2>Taameya</h2>
+</div>
+
+    <div class="card" onclick="openPage('molokhia')">
+    <img src="images/mol1.jpg" alt="Molokhia">
+    <h2>Molokhia</h2>
+</div>
+
+    <div class="card" onclick="openPage('mahshi')">
+    <img src="images/mah1.jpg" alt="Mahshi">
+    <h2>Mahshi</h2>
+</div>
+
+    <div class="card" onclick="openPage('fatta')">
+    <img src="images/fat1.jpg" alt="Fatta">
+    <h2>Fatta</h2>
+</div>
+
+    <div class="card" onclick="openPage('hamam')">
+    <img src="images/ham1.jpg" alt="Hamam">
+    <h2>Hamam</h2>
+</div>
+
+    <div class="card" onclick="openPage('raqaq')">
+    <img src="images/roq1.jpg" alt="Raqaq">
+    <h2>Raqaq</h2>
+</div>
+
+    <div class="card" onclick="openPage('omali')">
+    <img src="images/omali1.jpg" alt="Om Ali">
+    <h2>Om Ali</h2>
+</div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

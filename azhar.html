@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al-Azhar Mosque | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Al-Azhar Mosque</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='religious.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/az1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Al-Azhar Mosque</h2>
+
+<p>
+Al-Azhar Mosque is one of the most famous and historic mosques in Cairo, Egypt. It was founded in the 10th century by the Fatimid dynasty and became an important center of Islamic learning. Today, Al-Azhar is closely associated with Al-Azhar University and remains an important landmark in Islamic Cairo.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/az1.jpg",
+    "images/az2.jpg",
+    "images/az3.jpg"
+]);
+</script>
+
+</body>
+</html>

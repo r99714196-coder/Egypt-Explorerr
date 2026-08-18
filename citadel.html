@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saladin Citadel | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Saladin Citadel</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="citadel1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Saladin Citadel</h2>
+
+<p>
+Saladin Citadel is one of the most important historical landmarks in Cairo. It was built by Sultan Saladin in the 12th century to protect the city from invasions. The citadel offers stunning views of Cairo and is home to several museums and the famous Mosque of Muhammad Ali, making it one of Egypt's most popular tourist attractions.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"citadel1.jpg",
+"citadel2.jpg",
+"citadel3.jpg"
+]);
+</script>
+
+</body>
+</html>

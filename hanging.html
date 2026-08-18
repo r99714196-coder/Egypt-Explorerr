@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanging Church | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Hanging Church</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='religious.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/hang1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About the Hanging Church</h2>
+
+<p>
+The Hanging Church is one of the oldest and most famous churches in Cairo. It is located in Coptic Cairo and is dedicated to the Virgin Mary. The church is known for its unique architecture, historic wooden interior, and important role in Egypt's Coptic Christian heritage.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/hang1.jpg",
+    "images/hang2.jpg",
+    "images/hang3.jpg"
+]);
+</script>
+
+</body>
+</html>
