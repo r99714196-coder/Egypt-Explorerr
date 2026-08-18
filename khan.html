@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khan El Khalili | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Khan El Khalili</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="khan1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Khan El Khalili</h2>
+
+<p>
+Khan El Khalili is one of the oldest and most famous markets in Cairo. Founded in the 14th century, it is known for its traditional shops, handmade crafts, jewelry, spices, perfumes, and souvenirs. The market offers visitors a unique experience of Egyptian culture and is a popular destination for both tourists and locals.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"khan1.jpg",
+"khan2.jpg",
+"khan3.jpg"
+]);
+</script>
+
+</body>
+</html>

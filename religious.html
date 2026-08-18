@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Religious Places | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="religious">
+
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search places...">
+</nav>
+
+<div class="container">
+
+  <h1 class="title">🕌 Religious Places</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('azhar')">
+    <img src="images/az1.jpg" alt="Al-Azhar Mosque">
+    <h2>Al-Azhar Mosque</h2>
+</div>
+
+    <div class="card" onclick="openPage('ali_mosque')">
+    <img src="images/ali1.jpg" alt="Mohamed Ali Mosque">
+    <h2>Mohamed Ali Mosque</h2>
+</div>
+
+    <div class="card" onclick="openPage('hanging')">
+    <img src="images/hang1.jpg" alt="Hanging Church">
+    <h2>Hanging Church</h2>
+</div>
+
+    <div class="card" onclick="openPage('st_catherine')">
+    <img src="images/st1.jpg" alt="St. Catherine's Monastery">
+    <h2>St. Catherine's Monastery</h2>
+</div>
+
+    <div class="card" onclick="openPage('has')">
+    <img src="images/has1.jpg" alt="Hassan Mosque">
+    <h2>Hassan Mosque</h2>
+</div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

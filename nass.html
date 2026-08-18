@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gamal Abdel Nasser | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Gamal Abdel Nasser</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='kings.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/nass1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Gamal Abdel Nasser</h2>
+
+<p>
+Gamal Abdel Nasser was an Egyptian military officer and politician who served as the second President of Egypt from 1956 until his death in 1970. He played a major role in the Egyptian Revolution of 1952 and became one of the most influential Arab leaders of the twentieth century. Nasser is especially known for nationalizing the Suez Canal in 1956 and for promoting Arab nationalism and social reforms.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/nass1.jpg",
+    "images/nass2.jpg",
+    "images/nass3.jpg"
+]);
+</script>
+
+</body>
+</html>

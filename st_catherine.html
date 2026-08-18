@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>St. Catherine's Monastery | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">St. Catherine's Monastery</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='religious.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/st1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About St. Catherine's Monastery</h2>
+
+<p>
+St. Catherine's Monastery is one of the world's oldest continuously operating Christian monasteries. It is located at the foot of Mount Sinai in Egypt and is known for its historic religious significance, ancient manuscripts, icons, and unique architecture.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/st1.jpg",
+    "images/st2.jpg",
+    "images/st3.jpg"
+]);
+</script>
+
+</body>
+</html>

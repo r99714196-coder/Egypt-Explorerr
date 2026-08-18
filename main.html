@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Egypt Explorer</title>
+<link rel="stylesheet" href="style-main.css">
+</head>
+<body>
+    <nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+    <input type="text" class="search" onkeyup="searchCards()" placeholder="Search..."> 
+
+  <div class="icons">
+  
+</div>
+</nav>
+
+<div class="container">
+
+  <h1 class="title">Explore Egypt</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('attractions')">
+  <h2>🏛️ Attractions</h2>
+</div>
+
+<div class="card" onclick="openPage('kings')">
+  <h2>👑 Figures</h2>
+</div>
+
+<div class="card" onclick="openPage('museums')">
+  <h2>🏺 Museums</h2>
+</div>
+
+<div class="card" onclick="openPage('food')">
+  <h2>🍲 Food</h2>
+</div>
+
+<div class="card" onclick="openPage('culture')">
+  <h2>🎭 Culture</h2>
+</div>
+
+<div class="card" onclick="openPage('religious')">
+  <h2>🕌 Religion</h2>
+</div>
+
+  </div>
+
+</div>
+<section class="contact">
+
+  <h2>Contact Us</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button>Send</button>
+  </form>
+
+</section>
+<section class="info">
+  <h2>About Egypt Explorer</h2>
+  <p>
+    This project is made to explore Egypt’s history, culture, and landmarks in an interactive way.
+  </p>
+</section>
+
+<section class="reviews">
+  <h2>Reviews</h2>
+
+  <div class="review">⭐️⭐️⭐️⭐️⭐️ - Amazing project!</div>
+  <div class="review">⭐️⭐️⭐️⭐️ - Very creative idea</div>
+  <div class="review">⭐️⭐️⭐️⭐️⭐️ - Loved the design</div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Molokhia | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Molokhia</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='food.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/mol1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Molokhia</h2>
+
+<p>
+Molokhia is a popular Egyptian dish made from finely chopped jute leaves cooked with garlic and coriander. It is traditionally served with rice or bread and can be enjoyed with different types of meat or other accompaniments.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/mol1.jpg",
+    "images/mol2.jpg",
+    "images/mol3.jpg"
+]);
+</script>
+
+</body>
+</html>

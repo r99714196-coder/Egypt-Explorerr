@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxor Museum | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Luxor Museum</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='museums.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/lux1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Luxor Museum</h2>
+
+<p>
+Luxor Museum is an archaeological museum located on the east bank of the Nile in Luxor, Egypt. It displays a carefully selected collection of ancient Egyptian artifacts, including statues, jewelry, and objects from the temples and tombs of the area. The museum is known for its well-organized exhibitions and its connection to the history of ancient Thebes.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/lux1.jpg",
+    "images/lux2.jpg",
+    "images/lux3.jpg"
+]);
+</script>
+
+</body>
+</html>

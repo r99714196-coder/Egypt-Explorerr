@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valley of the Kings | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Valley of the Kings</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="valley1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About the Valley of the Kings</h2>
+
+<p>
+The Valley of the Kings is an ancient burial ground located on the west bank of the Nile near Luxor, Egypt. It was used as a royal burial site for many pharaohs of the New Kingdom. The valley is famous for its richly decorated tombs, including the tomb of Tutankhamun.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "valley1.jpg",
+    "valley2.jpg",
+    "valley3.jpg"
+]);
+</script>
+
+</body>
+</html>

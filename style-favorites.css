@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family: Arial;
+  min-height: 100vh;
+  background: url("bg4.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+
+body::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.fav-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.fav-card{
+  background: rgba(255,255,255,0.1);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.fav-card:hover{
+  transform: scale(1.05);
+}

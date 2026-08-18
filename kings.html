@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figures | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="kings">
+
+<nav class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search figures...">
+</nav>
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<div class="container">
+
+  <h1 class="title">👑 Historical Figures</h1>
+
+  <div class="grid">
+
+    <div class="card" onclick="openPage('cleopatra')">
+      <img src="cleopatra1.jpg">
+      <h2>Cleopatra</h2>
+    </div>
+
+    <div class="card" onclick="openPage('tut')">
+      <img src="tut1.jpg">
+      <h2>Tutankhamun</h2>
+    </div>
+
+ <div class="card" onclick="openPage('ramesses')">
+  <img src="ram1.jpg">
+  <h2>Ramesses II</h2>
+ </div>
+    <div class="card" onclick="openPage('nef')">
+      <img src="nef1.jpg">
+      <h2>Nefertiti</h2>
+    </div>
+
+    <div class="card" onclick="openPage('ar')">
+    <img src="images/ar1.jpg">
+    <h2>Ahmed Orabi</h2>
+</div> 
+
+    
+ 
+<div class="card" onclick="openPage('nass')" style="cursor: pointer;">
+    <img src="images/nass1.jpg">
+    <h2>Gamal Abdel Nasser</h2>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

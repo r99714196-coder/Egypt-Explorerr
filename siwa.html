@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siwa Oasis | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Siwa Oasis</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="siwa1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Siwa Oasis</h2>
+
+<p>
+Siwa Oasis is one of Egypt's most beautiful natural destinations. Located in the Western Desert near the Libyan border, it is famous for its palm trees, natural springs, salt lakes, and unique culture. Visitors enjoy its peaceful atmosphere, stunning landscapes, and historical sites such as the Temple of the Oracle.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"siwa1.jpg",
+"siwa2.jpg",
+"siwa3.jpg"
+]);
+</script>
+
+</body>
+</html>

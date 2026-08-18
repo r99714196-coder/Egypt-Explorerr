@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramesses II | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Ramesses II</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='kings.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="ram1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Ramesses II</h2>
+
+<p>
+Ramesses II, also known as Ramesses the Great, was one of the greatest pharaohs of ancient Egypt. He ruled for about 66 years during the Nineteenth Dynasty and is remembered for his military victories, strong leadership, and impressive building projects. He built famous monuments such as Abu Simbel, expanded Karnak and Luxor Temples, and left a lasting legacy in Egyptian history.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"ram1.jpg",
+"ram2.jpg",
+"ram3.jpg"
+]);
+</script>
+
+</body>
+</html>

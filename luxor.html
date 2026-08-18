@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxor Temple | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Luxor Temple</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='attractions.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="luxor1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Luxor Temple</h2>
+
+<p>
+Luxor Temple is one of the most famous ancient temples in Egypt. It is located on the east bank of the Nile River in Luxor. The temple was mainly built by Pharaoh Amenhotep III and later expanded by Ramses II. It is known for its magnificent statues, towering columns, and beautiful ancient inscriptions that reflect the greatness of Egyptian civilization.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+"luxor1.jpg",
+"luxor2.jpg",
+"luxor3.jpg"
+]);
+</script>
+
+</body>
+</html>

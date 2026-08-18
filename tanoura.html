@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanoura | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Tanoura</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='culture.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/tan1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Tanoura</h2>
+
+<p>
+Tanoura is a traditional Egyptian folk dance inspired by Sufi traditions. The performers wear colorful skirts and spin continuously while moving to traditional music. The dance is known for its beautiful colors, movement, and connection to Egyptian cultural heritage.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/tan1.jpg",
+    "images/tan2.jpg",
+    "images/tan3.jpg"
+]);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Museums | Egypt Explorer</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body class="museums">
+
+<button class="back-btn" onclick="goMain()">⬅ Back</button>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+
+    <input
+        type="text"
+        class="search"
+        onkeyup="searchCards()"
+        placeholder="Search museums..."
+    >
+</nav>
+
+<div class="container">
+
+    <h1 class="title">🏺 Museums</h1>
+
+    <div class="grid">
+
+        <div class="card" onclick="openPage('egyptian_museum')">
+    <img src="images/egy1.jpg" alt="Egyptian Museum">
+    <h2>Egyptian Museum</h2>
+     </div> 
+
+   <div class="card" onclick="openPage('gem')">
+    <img src="images/gem1.jpg" alt="Grand Egyptian Museum">
+    <h2>Grand Egyptian Museum</h2>
+  </div>  
+
+        <div class="card" onclick="openPage('lux_museum')">
+    <img src="images/lux1.jpg" alt="Luxor Museum">
+    <h2>Luxor Museum</h2>
+   </div> 
+
+       <div class="card" onclick="openPage('nub_museum')">
+    <img src="images/nub1.jpg" alt="Nubian Museum">
+    <h2>Nubian Museum</h2>
+     </div>
+
+        <div class="card" onclick="openPage('manial_museum')">
+    <img src="images/man1.jpg" alt="Manial Palace Museum">
+    <h2>Manial Palace Museum</h2>
+       </div>
+       
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

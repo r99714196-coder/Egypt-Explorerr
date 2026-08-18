@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Egyptian Markets | Egypt Explorer</title>
+<link rel="stylesheet" href="details.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Egypt Explorer</div>
+    <div class="place-name">Egyptian Markets</div>
+</nav>
+
+<button class="back-btn" onclick="window.location.href='culture.html'">⬅ Back</button>
+
+<div class="details-container">
+
+    <img id="mainImg" src="images/market1.jpg" class="main-img">
+
+    <div class="controls">
+        <button onclick="prevImg()">⬅</button>
+        <button onclick="nextImg()">➡</button>
+    </div>
+
+</div>
+
+<div class="info">
+
+<h2>About Egyptian Markets</h2>
+
+<p>
+Egyptian markets are an important part of everyday life and cultural heritage. Traditional markets are known for their colorful displays, handmade products, spices, textiles, jewelry, and local crafts. They offer visitors a lively way to experience Egyptian culture and traditions.
+</p>
+
+</div>
+
+<footer class="footer">
+<p>© 2026 Egypt Explorer | Made by Roaa Ahmed</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+setImages([
+    "images/market1.jpg",
+    "images/market2.jpg",
+    "images/market3.jpg"
+]);
+</script>
+
+</body>
+</html>

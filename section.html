@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sections</title>
+
+<link rel="stylesheet" href="style-main.css">
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="logo">Egypt Explorer</div>
+
+  <input type="text" class="search" onkeyup="searchCards()" placeholder="Search...">
+</div>
+
+<h1 class="title">Explore Egypt Sections</h1>
+
+<div class="grid">
+
+  <div class="card" onclick="openPage('cairo')">
+    <h2>Cairo</h2>
+    <p>Discover pyramids & museums</p>
+  </div>
+
+  <div class="card" onclick="openPage('luxor')">
+    <h2>Luxor</h2>
+    <p>Temples & ancient history</p>
+  </div>
+
+  <div class="card" onclick="openPage('aswan')">
+    <h2>Aswan</h2>
+    <p>Beautiful Nile views</p>
+  </div>
+
+  <div class="card" onclick="openPage('alexandria')">
+    <h2>Alexandria</h2>
+    <p>Sea & Roman history</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
